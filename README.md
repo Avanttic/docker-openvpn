@@ -1,2 +1,2 @@
 # docker-openvpn
-Docker para VPN
+docker run -ti   --cap-add=NET_ADMIN   --device /dev/net/tun avanttic/openvpn
